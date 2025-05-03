@@ -22,11 +22,11 @@
     in {
       packages = rec {
         inherit spEnv;
-        sdrconnect = pkgs.buildSourcePawnScript {
+        who = pkgs.buildSourcePawnScript {
           name = "who";
           src = ./plugin/who.sp;
         };
-        default = sdrconnect;
+        default = who;
       };
       devShells.default = pkgs.mkShell {
         nativeBuildInputs = [spEnv];
