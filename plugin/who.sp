@@ -21,7 +21,7 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 }
 
 public Action HandleWhoCommand(Handle Timer, int client) {
-    PrintToChatAll("They always ask \"Who is server?\". But nobody ever asks \"How is server?\".");
+    PrintToChatAll("Everyone always asks \"Who is server?\". But nobody ever asks \"How is server?\".");
 
     return Plugin_Handled;
 }
