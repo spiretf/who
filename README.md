@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/spire/who
+
 # Who
 
 Who is this server guy anyway?
